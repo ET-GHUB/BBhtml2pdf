@@ -1,0 +1,17 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "html2pdf",
+    "friendlyName": "html2pdf",
+    "description": "The html2pdf BB Component is a direct implementation of eKoopmans' html2pdf JS script. The component allows users to export a container of choice to PDF. It works by essentially taking a screenshot of the container and then printing it to PDF. Unfortunately, text cannot be selected as it is printing a 'screenshot', will look into ocrmypdf implementation in the future to hopefully solve this issue.",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "text",
+        "key": "text",
+        "label": "Text"
+      }
+    ]
+  }
+}
