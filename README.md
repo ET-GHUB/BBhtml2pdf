@@ -1,5 +1,5 @@
 # Html2pdf
-This is a readme for your new Budibase plugin.
+Version 1.0.0
 
 # Description
 The html2pdf BB Component is a direct implementation of eKoopmans' html2pdf JS script. The component allows users to export a container of choice to PDF. It works by essentially taking a screenshot of the container and then printing it to PDF. Unfortunately, text cannot be selected as it is printing a 'screenshot', will look into ocrmypdf implementation in the future to hopefully solve this issue.
